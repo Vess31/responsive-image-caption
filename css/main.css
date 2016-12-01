@@ -17,14 +17,19 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 h2 {
   font-family: "Denk One", sans-serif;
   margin: 0;
   padding: 20px;
 }
 
-body {
+p {
   margin: 0;
+  padding: 0 1.25rem 1.25rem;
 }
 
 figure {
@@ -37,4 +42,10 @@ figcaption {
 .img-flex {
   display: block;
   width: 100%;
+}
+
+@media only screen and (min-width: 25em) {
+
+
+
 }
