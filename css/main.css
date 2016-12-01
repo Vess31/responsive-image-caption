@@ -25,6 +25,7 @@ h2 {
   font-family: "Denk One", sans-serif;
   margin: 0;
   padding: 20px;
+  font-size: 1.5rem;
 }
 
 p {
@@ -52,17 +53,56 @@ figcaption {
     line-height: 1.4;
   }
 
-  figcaption {
-    position: relative;
-    background-color: rgba(0, 0, 0, .3);
-    color: #fff;
-    border-radius: .7rem;
-    width: 59%;
-    left: 12rem;
-    top: 7.5rem;
+  h2,
+  p {
+    margin: 0 0 1.4rem;
   }
 
-  .img-flex {
-    position: absolute;
+  p{
+    margin: 0;
   }
+
+  figcaption {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+    border-radius: .4rem;
+    width: 60%;
+    right: 1.5rem;
+    bottom: 2rem;
+    margin-bottom: 0rem;
+  }
+
+  figure {
+    position: relative;
+  }
+}
+@media only screen and (min-width: 60em) {
+
+  html{
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h2,
+  p {
+    margin: 0 0 1.5rem;
+  }
+
+  figcaption{
+    width: 40%;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%
+  }
+
 }
