@@ -19,4 +19,22 @@ html {
 
 h2 {
   font-family: "Denk One", sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+body {
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  background-color: #e2e2e2;
+}
+.img-flex {
+  display: block;
+  width: 100%;
 }
