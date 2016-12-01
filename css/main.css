@@ -47,6 +47,22 @@ figcaption {
 
 @media only screen and (min-width: 38em) {
 
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
+  figcaption {
+    position: relative;
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+    border-radius: .7rem;
+    width: 59%;
+    left: 12rem;
+    top: 7.5rem;
+  }
 
+  .img-flex {
+    position: absolute;
+  }
 }
