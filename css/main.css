@@ -58,7 +58,7 @@ figcaption {
     margin: 0 0 1.4rem;
   }
 
-  p{
+  p {
     margin: 0;
   }
 
@@ -70,16 +70,16 @@ figcaption {
     width: 60%;
     right: 1.5rem;
     bottom: 2rem;
-    margin-bottom: 0rem;
   }
 
   figure {
     position: relative;
   }
 }
+
 @media only screen and (min-width: 60em) {
 
-  html{
+  html {
     font-size: 120%;
     line-height: 1.5;
   }
@@ -89,7 +89,7 @@ figcaption {
     margin: 0 0 1.5rem;
   }
 
-  figcaption{
+  figcaption {
     width: 40%;
   }
 
@@ -102,7 +102,7 @@ figcaption {
 @media only screen and (min-width: 90em) {
 
   html {
-    font-size: 130%
+    font-size: 130%;
   }
 
 }
